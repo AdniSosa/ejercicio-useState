@@ -18,11 +18,11 @@ En este ejercicio tendrás que poner en práctica lo aprendido con useState. Par
 Como reto, te proponemos que modifiques el ejercicio anterior y en vez de tener que clicar en el nombre para cambiar su valor crees un formulario que cuando se envíe cambie el nombre: 
 1. Modifica el componente `App`.
 2. Implementa una función `changeName` que se encargue de actualizar el nombre del profesor:
-   - Verifica que `newName` no esté vacío antes de actualizar el nombre.
-   - Actualiza el estado `name` con el valor de `newName`.
-   - Restablece `newName` a una cadena vacía después de actualizar el nombre.
+   - Verifica que `newName` no esté vacío antes de actualizar el nombre.👌
+   - Actualiza el estado `name` con el valor de `newName`.👌
+   - Restablece `newName` a una cadena vacía después de actualizar el nombre.👌
 4. En el JSX del componente, renderiza un formulario `<form>` con los siguientes elementos:
    - Un campo de entrada de texto `<input>` con el atributo `type` establecido en `"text"`, el atributo `value` vinculado a `newName`, el atributo `onChange` que actualiza `newName` cuando cambia el valor y el atributo `placeholder` con el texto "add a name".
-   - Un botón `<button>` con el tipo establecido en `"submit"` y el texto "Add".
-5. Utiliza la función `changeName` para manejar el evento `onSubmit` del formulario. Esto asegurará que el nombre se actualice cuando el formulario se envíe.
-6. Exporta el componente `App` al final del archivo.
+   - Un botón `<button>` con el tipo establecido en `"submit"` y el texto "Add".:👌
+5. Utiliza la función `changeName` para manejar el evento `onSubmit` del formulario. Esto asegurará que el nombre se actualice cuando el formulario se envíe.👌
+6. Exporta el componente `App` al final del archivo.👌
